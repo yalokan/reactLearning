@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 type ButtonProps = {
     text: string;
     handler: () => void;
@@ -12,6 +11,4 @@ function Button(props: ButtonProps){
             </div>
         )
   }
-
-
 export default Button;
