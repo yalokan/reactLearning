@@ -37,13 +37,17 @@ class ToDo extends React.Component<{}, ToDoState> {
          };
 
 
-     onClickhandler = (id: number)=> () => { this.setState({list: this.state.list[this.state.list.findIndex(task => task.id == id)].active: false)
-                  };
+
+    onClickhandler = (id: number)=> () => {
+        {this.state.list[this.state.list.findIndex(task => task.id == id)].active =
+            !this.state.list[this.state.list.findIndex(task => task.id == id)].active}
+        this.setState({list: this.state.list})
+        };
 
 
     render() {
         const line = <hr/>;
-        let todoList =this.state.list.map((task)=> <li key={task.id}>{task.text}
+        let todoList =this.state.list.map((task)=> <li onClick={this.onClickhandler(task.id)} key={task.id}>{task.active ? task.text : <del>{task.text}</del>}
         <Button text = "Delete" handler={
             this.onDeleteBtnHandler(task.id)}/>
             {line}

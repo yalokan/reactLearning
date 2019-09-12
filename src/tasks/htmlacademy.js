@@ -1,15 +1,9 @@
-function getDocumentsNumbers(array, year) {
-    var amount = 0;
-    for(i in array) {
-         amount = array.indexOf(year, -4) != -1 ? amount++ : amount;
+var week = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"]
+function getDayOfWeek (firstDay, target){
+    while (week[0] != firstDay){
+        week.unshift(week.pop());
     }
-    return amount;
-
+    return target % 7 == 0 ? week[0] : week[target % 7 - 1];
 }
 
-const func = (id) => { console.log(id) };
-
-const arrr=() => {
-    return func(7);
-}
-func.bind(null, 7);
+console.log( getDayOfWeek("вторник", 21));
