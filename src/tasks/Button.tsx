@@ -6,9 +6,7 @@ type ButtonProps = {
 }
 function Button(props: ButtonProps){
         return(
-            <div>
             <button onClick={props.handler}>{props.text}</button>
-            </div>
         )
   }
 export default Button;
