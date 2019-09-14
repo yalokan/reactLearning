@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="309aff47-dba2-448a-850d-d5c7c842b062" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/tasks/ToDo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/ToDo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/htmlacademy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/htmlacademy.js" afterDir="false" />
+    <list default="true" id="309aff47-dba2-448a-850d-d5c7c842b062" name="Default Changelist" comment="add striking by click">
+      <change afterPath="$PROJECT_DIR$/src/planets/Filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/Found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/InputField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/PlanetCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/PlanetsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planets/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/index.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +22,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -29,10 +38,13 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tasks" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -40,6 +52,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\mstekoltshikov\Documents\MyProjects\reactlearning\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -119,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567690813407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add striking by click">
+      <created>1568269519972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568269519972</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -135,8 +155,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="reset button added" />
     <MESSAGE value="Initial push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial push" />
+    <MESSAGE value="add striking by click" />
+    <option name="LAST_COMMIT_MESSAGE" value="add striking by click" />
   </component>
 </project>

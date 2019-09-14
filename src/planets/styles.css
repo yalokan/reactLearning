@@ -1,0 +1,62 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Filter input {
+    width: 30px;
+    padding: 5px 3px;
+    margin-left: 5px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.Filter input.normal-input {
+    width: 100px;
+}
+
+.Planets {
+    display: flex;
+    flex-direction: column;
+}
+
+.Statistics {
+    width: 100%;
+    text-align: left;
+    padding: 30px 15px;
+    font-size: 18px;
+    color: #34495e;
+}
+
+.Planets-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Planet {
+    width: 30%;
+    background: #f8f8f8;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 4px;
+}
+
+.Planet--name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    color: #3498db;
+}
+
+.Planet--data {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+}
