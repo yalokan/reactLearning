@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 type CardProps = {
     planetName: string;
@@ -11,12 +12,13 @@ type CardProps = {
 function CardComposer(props: CardProps) {
 
     return (
+
        <div className="Planet">
-           <a className="Planet--name" href={"props.planetURL"}>{props.planetName}</a>
+           <NavLink className="Planet--name" to={props.planetURL}>{props.planetName}</NavLink>
            <ul className="Planet--data">
                <li>Rotation period: <span>{props.rotation}</span></li>
                <li>Population: <span>{props.population}</span></li>
-               <li>Residents: <a href={"residentsURL"}>{props.residents}</a></li>
+               <li>Residents: <NavLink to={props.residentsURL}>{props.residents}</NavLink></li>
            </ul>
        </div>
     );

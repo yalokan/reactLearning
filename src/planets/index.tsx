@@ -5,11 +5,13 @@ import "./styles.css";
 import Found from "./Found";
 import Filter from "./Filter";
 import PlanetsList from "./PlanetsList";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
 
 
     return (
+        <BrowserRouter>
         <div className="App">
             <h1>Planets</h1>
             <Filter />
@@ -20,6 +22,7 @@ function App() {
                 </div>
             </div>
         </div>
+        </BrowserRouter>
     );
 }
 export default App;

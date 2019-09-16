@@ -13,7 +13,7 @@ type ToDoState = {
     list: ToDoItem[];
 }
 
-class ToDo extends React.Component<{}, ToDoState> {
+    class ToDo extends React.Component<{}, ToDoState> {
     state: ToDoState = {
         text: "",
         list: [],
