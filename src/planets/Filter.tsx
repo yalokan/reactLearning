@@ -4,10 +4,10 @@ import FilterField from "./FilterField";
 
 type FilterState = {
     nameFrom: string,
-    rotationFrom: number,
-    rotationTo: number,
-    populationFrom: number,
-    populationTo: number,
+    rotationFrom: string,
+    rotationTo: string,
+    populationFrom: string,
+    populationTo: string,
     text: string,
 }
 
@@ -15,16 +15,15 @@ class Filter extends React.Component {
 
     state: FilterState = {
         nameFrom: "",
-        rotationFrom: 0,
-        rotationTo: 0,
-        populationFrom: 0,
-        populationTo: 0,
+        rotationFrom: "",
+        rotationTo: "",
+        populationFrom: "",
+        populationTo: "",
         text: "",
     };
-    onInputChange = (e: React.FormEvent<HTMLInputElement>) => {
-          console.log({e });
-        this.setState({text: e.currentTarget.value});
-
+    onInputChange = (fieldName: string) => (e: React.FormEvent<HTMLInputElement>) => {
+        this.setState({[fieldName]: e.currentTarget.value});
+        console.log(this.state.nameFrom);
     };
   render() {
 
@@ -32,18 +31,18 @@ class Filter extends React.Component {
           <div className="Filters">
               <div className="Filter">
                   <span>Name</span>
-                  <FilterField placeholder={"from"} handler={this.onInputChange}/>
+                  <FilterField placeholder={"from"} handler={this.onInputChange("nameFrom")} value={this.state.nameFrom}/>
               </div>
               <div className="Filter">
                   <span>Rotation period </span>
-                  {/*<FilterField placeholder={"from"}/>*/}
-                  {/*<FilterField placeholder={"to"}/>*/}
+                  <FilterField placeholder={"from"} handler={this.onInputChange("rotationFrom")} value={this.state.rotationFrom}/>
+                  <FilterField placeholder={"from"} handler={this.onInputChange("rotationTo")} value={this.state.rotationTo}/>
 
               </div>
               <div className="Filter">
                   <span>Population</span>
-                  {/*<FilterField placeholder={"from"}/>*/}
-                  {/*<FilterField placeholder={"to"}/>*/}
+                  <FilterField placeholder={"from"} handler={this.onInputChange("populationFrom")} value={this.state.populationFrom}/>
+                  <FilterField placeholder={"from"} handler={this.onInputChange("populationTo")} value={this.state.populationTo}/>
               </div>
           </div>
       );

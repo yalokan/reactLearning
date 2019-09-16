@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="309aff47-dba2-448a-850d-d5c7c842b062" name="Default Changelist" comment="add striking by click">
-      <change afterPath="$PROJECT_DIR$/src/planets/FilterField.tsx" afterDir="false" />
+    <list default="true" id="309aff47-dba2-448a-850d-d5c7c842b062" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/planets/Filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/Filter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/InputField.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/PlanetCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/PlanetCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Input.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/ToDo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/ToDo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planets/FilterField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/FilterField.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +27,7 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1QuUnDPMcuD3AFFfETD91zVFJOr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -110,6 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567665073856</updated>
       <workItem from="1567665075109" duration="10643000" />
+      <workItem from="1568620144683" duration="2932000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1567688599260</created>
@@ -146,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568489072236</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Planet's project general layout">
+      <created>1568616613842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568616613842</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -161,11 +163,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="reset button added" />
     <MESSAGE value="Initial push" />
     <MESSAGE value="add striking by click" />
-    <option name="LAST_COMMIT_MESSAGE" value="add striking by click" />
+    <MESSAGE value="Planet's project general layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Planet's project general layout" />
   </component>
 </project>
