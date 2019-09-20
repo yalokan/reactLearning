@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="309aff47-dba2-448a-850d-d5c7c842b062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/planets/Store/Planets/Actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/Store/Planets/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/Store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/planetsListConnector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/Filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/Filter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/planets/FilterField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/FilterField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planets/PlanetCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/PlanetCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planets/PlanetsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/PlanetsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planets/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +27,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -104,7 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567665073856</updated>
       <workItem from="1567665075109" duration="10643000" />
-      <workItem from="1568620144683" duration="2932000" />
+      <workItem from="1568620144683" duration="4710000" />
+      <workItem from="1568734338437" duration="14821000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1567688599260</created>
@@ -148,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568616613842</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Input field now return values">
+      <created>1568626417204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568626417204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -168,7 +186,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -180,6 +200,7 @@
     <MESSAGE value="Initial push" />
     <MESSAGE value="add striking by click" />
     <MESSAGE value="Planet's project general layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Planet's project general layout" />
+    <MESSAGE value="Input field now return values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input field now return values" />
   </component>
 </project>

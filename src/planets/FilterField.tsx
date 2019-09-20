@@ -2,9 +2,8 @@ import React from 'react';
 
 type FilterProps = {
     placeholder: string,
-    // fieldName: string,
-    handler: (e: React.FormEvent<HTMLInputElement>) => void,
     value: string,
+    handler: (e: React.FormEvent<HTMLInputElement>) => void,
 }
 
 const FilterField = (props: FilterProps) => {
