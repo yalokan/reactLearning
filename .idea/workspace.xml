@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="309aff47-dba2-448a-850d-d5c7c842b062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/planets/Store/Planets/Actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/planets/Store/Planets/selectors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/planets/Store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/planets/planetsListConnector.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/planets/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/FilterField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/FilterField.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/PlanetCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/PlanetCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/PlanetsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/PlanetsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planets/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/planets/App.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="309aff47-dba2-448a-850d-d5c7c842b062" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +101,7 @@
       <updated>1567665073856</updated>
       <workItem from="1567665075109" duration="10643000" />
       <workItem from="1568620144683" duration="4710000" />
-      <workItem from="1568734338437" duration="14821000" />
+      <workItem from="1568734338437" duration="15036000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1567688599260</created>
@@ -166,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568626417204</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Basic Redux implemented">
+      <created>1568969408901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568969408901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -201,6 +194,7 @@
     <MESSAGE value="add striking by click" />
     <MESSAGE value="Planet's project general layout" />
     <MESSAGE value="Input field now return values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input field now return values" />
+    <MESSAGE value="Basic Redux implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Redux implemented" />
   </component>
 </project>
